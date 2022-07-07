@@ -1,49 +1,60 @@
 {
   "days": [
     {
-      "id": 1,
-      "day": 1
+      "day": "1",
+      "id": 1
     },
     {
-      "day": 2,
+      "day": "2",
       "id": 2
+    },
+    {
+      "day": "3",
+      "id": 3
     }
   ],
   "words": [
     {
       "day": "1",
-      "eng": "strawberry",
-      "kor": "딸기",
+      "eng": "monkey",
+      "kor": "원숭이",
       "isDone": false,
-      "id": 10
+      "id": 1
     },
     {
       "day": "1",
-      "eng": "apple",
-      "kor": "사과",
+      "eng": "computer",
+      "kor": "컴퓨터",
       "isDone": false,
-      "id": 15
-    },
-    {
-      "day": "1",
-      "eng": "potato",
-      "kor": "감자",
-      "isDone": false,
-      "id": 16
+      "id": 2
     },
     {
       "day": "2",
-      "eng": "mouse",
-      "kor": "쥐",
+      "eng": "cider",
+      "kor": "사이다",
       "isDone": false,
-      "id": 17
+      "id": 3
     },
     {
       "day": "2",
-      "eng": "grape",
-      "kor": "포도",
+      "eng": "cola",
+      "kor": "콜라",
       "isDone": false,
-      "id": 18
+      "id": 4
+    },
+    {
+      "day": "3",
+      "eng": "pie",
+      "kor": "파이",
+      "isDone": false,
+      "id": 5
+    },
+    {
+      "day": "3",
+      "eng": "bread",
+      "kor": "빵",
+      "isDone": false,
+      "id": 6
     }
   ]
 }
