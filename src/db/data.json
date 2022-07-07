@@ -5,56 +5,17 @@
       "day": 1
     },
     {
-      "id": 2,
-      "day": 2
-    },
-    {
-      "id": 3,
-      "day": 3
+      "day": 2,
+      "id": 2
     }
   ],
   "words": [
-    {
-      "day": "3",
-      "eng": "window",
-      "kor": "창문",
-      "isDone": false,
-      "id": 7
-    },
-    {
-      "day": "3",
-      "eng": "house",
-      "kor": "집",
-      "isDone": false,
-      "id": 8
-    },
-    {
-      "day": "2",
-      "eng": "mouse",
-      "kor": "쥐",
-      "isDone": false,
-      "id": 9
-    },
     {
       "day": "1",
       "eng": "strawberry",
       "kor": "딸기",
       "isDone": false,
       "id": 10
-    },
-    {
-      "day": "2",
-      "eng": "car",
-      "kor": "자동차",
-      "isDone": false,
-      "id": 12
-    },
-    {
-      "day": "3",
-      "eng": "pencil",
-      "kor": "연필",
-      "isDone": false,
-      "id": 13
     },
     {
       "day": "1",
@@ -69,6 +30,20 @@
       "kor": "감자",
       "isDone": false,
       "id": 16
+    },
+    {
+      "day": "2",
+      "eng": "mouse",
+      "kor": "쥐",
+      "isDone": false,
+      "id": 17
+    },
+    {
+      "day": "2",
+      "eng": "grape",
+      "kor": "포도",
+      "isDone": false,
+      "id": 18
     }
   ]
 }

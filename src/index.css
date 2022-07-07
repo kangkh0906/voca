@@ -130,3 +130,8 @@ button {
   height: 40px;
   font-size: 20px;
 }
+
+.day_header {
+  display: flex;
+  justify-content: space-between;
+}
