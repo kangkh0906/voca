@@ -41,14 +41,15 @@ function CreateWord() {
   return (
     <form onSubmit={onSubmit}>
       <div className="input_area">
-        <label>Eng</label>
-        <input type="text" placeholder="computer" ref={engRef} />
+        <label>단어</label>
+        <input type="text" placeholder="ex) computer" ref={engRef} />
       </div>
       <div className="input_area">
-        <label>Kor</label>
-        <input type="text" placeholder="컴퓨터" ref={korRef} />
+        <label>뜻</label>
+        <input type="text" placeholder="ex) 컴퓨터" ref={korRef} />
       </div>
       <div className="input_area">
+        <label>Day</label>
         <select ref={dayRef}>
           {days.map(day => (
             <option key={day.id} value={day.day}>
