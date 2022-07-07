@@ -9,8 +9,16 @@
       "id": 2
     },
     {
+      "day": "5",
+      "id": 4
+    },
+    {
+      "day": "4",
+      "id": 5
+    },
+    {
       "day": "3",
-      "id": 3
+      "id": 6
     }
   ],
   "words": [
@@ -44,17 +52,24 @@
     },
     {
       "day": "3",
-      "eng": "pie",
-      "kor": "파이",
+      "eng": "tree",
+      "kor": "나무",
       "isDone": false,
       "id": 5
     },
     {
-      "day": "3",
-      "eng": "bread",
-      "kor": "빵",
+      "day": "4",
+      "eng": "hamburger",
+      "kor": "햄버거",
       "isDone": false,
       "id": 6
+    },
+    {
+      "day": "5",
+      "eng": "table",
+      "kor": "책상",
+      "isDone": false,
+      "id": 7
     }
   ]
 }
