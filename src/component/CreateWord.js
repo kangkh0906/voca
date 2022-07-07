@@ -51,11 +51,14 @@ function CreateWord() {
       <div className="input_area">
         <label>Day</label>
         <select ref={dayRef}>
-          {days.map(day => (
-            <option key={day.id} value={day.day}>
-              {day.day}
-            </option>
-          ))}
+          {days
+            .sort((a, b) => a.day - b.day)
+            .map(day => (
+              <option key={day.id} value={day.day}>
+                {day.day}
+              </option>
+            ))
+          }
         </select>
       </div>
       <button
