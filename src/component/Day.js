@@ -15,7 +15,6 @@ function Day() {
   const navigate = useNavigate();
 
   function dayDel() {
-    console.log(days[0].day);
     if (window.confirm('삭제하시겠습니까?')) {
       fetch(`http://localhost:3001/days/${days[0].id}`, {
         method: 'DELETE'
