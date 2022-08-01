@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import DayList from "./component/DayList";
-import Header from "./component/Header";
-import Day from "./component/Day";
+import DayList from './component/DayList';
+import Header from './component/Header';
+import Day from './component/Day';
 import CreateWord from './component/CreateWord';
 import CreateDay from './component/CreateDay';
 

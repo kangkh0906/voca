@@ -1,4 +1,4 @@
-import useFetch from "../hooks/useFetch";
+import useFetch from '../hooks/useFetch';
 import { useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
@@ -23,8 +23,7 @@ function CreateWord() {
           kor: korRef.current.value,
           isDone: false,
         }),
-      })
-      .then(res => {
+      }).then((res) => {
         if (res.ok) {
           alert('생성이 완료되었습니다.');
           navigate(`/day/${dayRef.current.value}`);
@@ -53,20 +52,22 @@ function CreateWord() {
         <select ref={dayRef}>
           {days
             .sort((a, b) => a.day - b.day)
-            .map(day => (
+            .map((day) => (
               <option key={day.id} value={day.day}>
                 {day.day}
               </option>
-            ))
-          }
+            ))}
         </select>
       </div>
       <button
-      style={{
-        opacity: isLoading ? 0.3 : 1,
-      }}>{isLoading ? 'Saving...' : '저장'}</button>
+        style={{
+          opacity: isLoading ? 0.3 : 1,
+        }}
+      >
+        {isLoading ? 'Saving...' : '저장'}
+      </button>
     </form>
-  )
+  );
 }
 
 export default CreateWord;

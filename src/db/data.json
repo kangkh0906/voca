@@ -24,13 +24,6 @@
   "words": [
     {
       "day": "1",
-      "eng": "monkey",
-      "kor": "원숭이",
-      "isDone": false,
-      "id": 1
-    },
-    {
-      "day": "1",
       "eng": "computer",
       "kor": "컴퓨터",
       "isDone": false,
@@ -51,13 +44,6 @@
       "id": 4
     },
     {
-      "day": "3",
-      "eng": "tree",
-      "kor": "나무",
-      "isDone": false,
-      "id": 5
-    },
-    {
       "day": "4",
       "eng": "hamburger",
       "kor": "햄버거",
@@ -70,6 +56,13 @@
       "kor": "책상",
       "isDone": false,
       "id": 7
+    },
+    {
+      "day": "1",
+      "eng": "dmd",
+      "kor": "dksldi",
+      "isDone": false,
+      "id": 8
     }
   ]
 }
